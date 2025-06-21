@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Scholarships | STEM Atlas</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>STEM Scholarships</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="map.html">Explore Map</a>
+    <a href="submit.html">Submit Program</a>
+    <a href="passion.html">Passion Projects</a>
+    <a href="scholarships.html">Scholarships</a>
+    <a href="internships.html">Internships</a>
+    <a href="research.html">Research</a>
+    <a href="competitions.html">Competitions</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <main>
+  <section>
+    <h2>Explore Scholarships</h2>
+    <p>Click a tag to filter scholarships or use the search bar:</p>
+
+    <!-- 🔍 Optional Search -->
+    <input id="search-bar" type="text" placeholder="Search scholarships..." style="width: 100%; padding: 0.5rem; margin-bottom: 1rem;" />
+
+    <!-- 🏷️ Filter Tags -->
+    <div id="filter-buttons" style="margin-bottom: 1rem;">
+      <button class="tag-filter" data-tag="merit">💰 Merit-based</button>
+      <button class="tag-filter" data-tag="location">🌍 Location-specific</button>
+      <button class="tag-filter" data-tag="women">👩‍🔬 Women in STEM</button>
+      <button class="tag-filter" data-tag="noessay">📚 No-Essay</button>
+      <button class="tag-filter" data-tag="firstgen">🎓 First-Gen / URM</button>
+      <button class="tag-filter" data-tag="all">🔁 Show All</button>
+    </div>
+
+    <!-- 💼 Scholarship List -->
+    <ul>
+      <li class="search-item" data-tags="merit location">Amazon Future Engineer – $40,000</li>
+      <li class="search-item" data-tags="merit">Edison Scholars Program – Up to $50,000</li>
+      <li class="search-item" data-tags="women">VIP Women in Tech – $2,500</li>
+      <li class="search-item" data-tags="noessay">Niche Monthly No-Essay Scholarship – $10,000</li>
+      <li class="search-item" data-tags="location">SoCalGas STEM – $5,000 for CA students</li>
+      <li class="search-item" data-tags="firstgen">NSF S-STEM – Varies; low-income STEM majors</li>
+      <li class="search-item" data-tags="women firstgen">SNC Women in STEM – For college-bound females</li>
+      <li class="search-item" data-tags="location">Western Digital STEM – CA-based applicants</li>
+      <li class="search-item" data-tags="firstgen">AISES Accenture – Native American STEM students</li>
+      <li class="search-item" data-tags="noessay">Bold.org Monthly No-Essay – $1,000+</li>
+    </ul>
+  </section>
+</main>
+
+
+  <footer>
+    <p>&copy; 2025 STEM Atlas. All rights reserved.</p>
+  </footer>
+</body>
+</html>
